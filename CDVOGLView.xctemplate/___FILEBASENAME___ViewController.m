@@ -60,7 +60,7 @@
     [self.glView setFrame:[UIScreen mainScreen].bounds];
     //self.glView.center = self.view.center;
     [self.view addSubview:_glView];
-    [self.view bringSubviewToFront:toolBar];
+    [self.view bringSubviewToFront:closeBtn];
     
     
 	self.refreshBtn.image	= [UIImage imageNamed:[[self class] resolveImageResource:@"___FILEBASENAME___.bundle/but_refresh"]];

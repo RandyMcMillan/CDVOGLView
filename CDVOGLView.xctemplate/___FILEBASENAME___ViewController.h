@@ -39,7 +39,7 @@
 
 @property (nonatomic, strong) IBOutlet UIWebView				*webView;
 @property (nonatomic, retain) IBOutlet OpenGLView * glView;
-@property (nonatomic, strong) IBOutlet UIBarButtonItem			*closeBtn;
+@property (nonatomic, strong) IBOutlet UIButton			*closeBtn;
 @property (nonatomic, strong) IBOutlet UIBarButtonItem			*refreshBtn;
 @property (nonatomic, strong) IBOutlet UILabel					*addressLabel;
 @property (nonatomic, strong) IBOutlet UIBarButtonItem			*backBtn;
