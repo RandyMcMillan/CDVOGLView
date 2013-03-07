@@ -36,6 +36,8 @@
 	 *   NSArray* supportedOrientations = [strOrientations componentsSeparatedByString:@","];
 	 */
 
+    self.___FILEBASENAME___.modalPresentationStyle = UIModalPresentationPageSheet;
+    self.___FILEBASENAME___.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
 	[self.viewController presentModalViewController:___FILEBASENAME___ animated:YES];
 
 	NSString *url = (NSString *)[arguments objectAtIndex:0];

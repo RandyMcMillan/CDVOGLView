@@ -46,6 +46,8 @@
 @property (nonatomic, strong) IBOutlet UIBarButtonItem			*fwdBtn;
 @property (nonatomic, strong) IBOutlet UIBarButtonItem			*safariBtn;
 @property (nonatomic, strong) IBOutlet UIActivityIndicatorView	*spinner;
+@property (nonatomic, strong) IBOutlet UIToolbar	*toolBar;
+
 
 // unsafe_unretained is equivalent to assign - used to prevent retain cycles in the two properties below
 @property (nonatomic, unsafe_unretained) id <___FILEBASENAME___Delegate>	delegate;
@@ -60,5 +62,6 @@
 - (IBAction)onSafariButtonPress:(id)sender;
 - (void)loadURL:(NSString *)url;
 - (void)closeBrowser;
+- (void)resizeOGLView:(UIInterfaceOrientation)interfaceOrientation;
 
 @end

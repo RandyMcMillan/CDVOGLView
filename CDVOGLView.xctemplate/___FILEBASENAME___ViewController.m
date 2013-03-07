@@ -14,7 +14,7 @@
 @synthesize glView=_glView;
 @synthesize imageURL, isImage;
 @synthesize delegate, orientationDelegate;
-@synthesize spinner, webView, addressLabel;
+@synthesize spinner, webView, addressLabel,toolBar;
 @synthesize closeBtn, refreshBtn, backBtn, fwdBtn, safariBtn;
 
 /*
@@ -55,11 +55,12 @@
 {
 	[super viewDidLoad];
 
-    
-    self.glView = [[[OpenGLView alloc] initWithFrame: self.webView.bounds] autorelease];
-    self.glView.center = self.webView.center;
+    self.glView = [[[OpenGLView alloc] initWithFrame: [UIScreen mainScreen].bounds] autorelease];
+    //     self.glView.autoresizingMask = (UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight);
+    [self.glView setFrame:[UIScreen mainScreen].bounds];
+    //self.glView.center = self.view.center;
     [self.view addSubview:_glView];
-
+    [self.view bringSubviewToFront:toolBar];
     
     
 	self.refreshBtn.image	= [UIImage imageNamed:[[self class] resolveImageResource:@"___FILEBASENAME___.bundle/but_refresh"]];
@@ -223,6 +224,13 @@
  *   }
  */
 
+
+- (void)resizeOGLView:(UIInterfaceOrientation)interfaceOrientation{
+
+    NSLog(@"resize OGLView for interfaceOrientation - %i",interfaceOrientation);
+
+}
+
 #pragma mark CDVOrientationDelegate
 
 - (BOOL)shouldAutorotate
@@ -248,8 +256,10 @@
 	if ((self.orientationDelegate != nil) && [self.orientationDelegate respondsToSelector:@selector(shouldAutorotateToInterfaceOrientation:)]) {
 		return [self.orientationDelegate shouldAutorotateToInterfaceOrientation:interfaceOrientation];
 	}
-
-	return YES;
+    
+    [self resizeOGLView:interfaceOrientation];
+	
+    return YES;
 }
 
 @end
