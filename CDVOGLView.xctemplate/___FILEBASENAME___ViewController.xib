@@ -66,7 +66,7 @@
 						<string key="NSFrame">{{5, 230}, {418, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="427045433"/>
+						<reference key="NSNextKeyView" ref="89602979"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">4</int>
 							<bytes key="NSWhite">MC42NjY2NjY2OSAwAA</bytes>
@@ -102,6 +102,7 @@
 						<string key="NSFrame">{{454, 231}, {20, 20}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -109,18 +110,17 @@
 					</object>
 					<object class="IBUIButton" id="427045433">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{20, 245}, {73, 35}}</string>
+						<int key="NSvFlags">289</int>
+						<string key="NSFrame">{{387, 20}, {73, 35}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="89602979"/>
+						<reference key="NSNextKeyView" ref="345761693"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">Button</string>
+						<string key="IBUINormalTitle">Close</string>
 						<reference key="IBUIHighlightedTitleColor" ref="1061183623"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
@@ -144,7 +144,7 @@
 				<string key="NSFrame">{{0, 20}, {480, 300}}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
-				<reference key="NSNextKeyView" ref="345761693"/>
+				<reference key="NSNextKeyView" ref="427045433"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
 					<bytes key="NSWhite">MC41AA</bytes>
@@ -285,6 +285,7 @@
 					<string>13.IBPluginDependency</string>
 					<string>32.IBPluginDependency</string>
 					<string>4.IBPluginDependency</string>
+					<string>49.CustomClassName</string>
 					<string>49.IBPluginDependency</string>
 				</object>
 				<object class="NSArray" key="dict.values">
@@ -297,6 +298,7 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<string>OGLViewBtn</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>
 			</object>
@@ -317,6 +319,14 @@
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<bool key="EncodedWithXMLCoder">YES</bool>
+				<object class="IBPartialClassDescription">
+					<string key="className">OGLViewBtn</string>
+					<string key="superclassName">UIButton</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/OGLViewBtn.h</string>
+					</object>
+				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">OpenGLView</string>
 					<string key="superclassName">UIView</string>
@@ -379,7 +389,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>UILabel</string>
 							<string>UIBarButtonItem</string>
-							<string>UIButton</string>
+							<string>OGLViewBtn</string>
 							<string>UIBarButtonItem</string>
 							<string>OpenGLView</string>
 							<string>UIBarButtonItem</string>
@@ -416,7 +426,7 @@
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">closeBtn</string>
-								<string key="candidateClassName">UIButton</string>
+								<string key="candidateClassName">OGLViewBtn</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">fwdBtn</string>

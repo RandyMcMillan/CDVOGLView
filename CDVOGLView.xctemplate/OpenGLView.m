@@ -97,8 +97,8 @@ const GLubyte Indices2[] = {
         [self setupFrameBuffer];
         [self compileShaders];
         [self setupVBOs];
-        _floorTexture = [self setupTexture:@"tile_floor.png"];
-        _logoTexture = [self setupTexture:@"DD_logo.png"];
+        _floorTexture = [self setupTexture:@"cubeBackground.png"];
+        _logoTexture = [self setupTexture:@"logo.png"];
         [self setupDisplayLink];
         //[self render];
     }
