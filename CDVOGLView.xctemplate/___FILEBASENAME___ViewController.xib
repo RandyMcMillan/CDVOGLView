@@ -66,7 +66,7 @@
 						<string key="NSFrame">{{5, 230}, {418, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="65545681"/>
+						<reference key="NSNextKeyView" ref="427045433"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">4</int>
 							<bytes key="NSWhite">MC42NjY2NjY2OSAwAA</bytes>
@@ -76,7 +76,7 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">Loading...</string>
-						<object class="NSColor" key="IBUITextColor" id="976817441">
+						<object class="NSColor" key="IBUITextColor" id="1061183623">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MQA</bytes>
 						</object>
@@ -107,7 +107,7 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 					</object>
-					<object class="IBUIButton" id="65545681">
+					<object class="IBUIButton" id="427045433">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{20, 245}, {73, 35}}</string>
@@ -121,7 +121,7 @@
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<int key="IBUIButtonType">1</int>
 						<string key="IBUINormalTitle">Button</string>
-						<reference key="IBUIHighlightedTitleColor" ref="976817441"/>
+						<reference key="IBUIHighlightedTitleColor" ref="1061183623"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC4xOTYwNzg0MzE0IDAuMzA5ODAzOTIxNiAwLjUyMTU2ODYyNzUAA</bytes>
@@ -203,14 +203,14 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">closeBtn</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="65545681"/>
+						<reference key="destination" ref="427045433"/>
 					</object>
 					<int key="connectionID">51</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">onDoneButtonPress:</string>
-						<reference key="source" ref="65545681"/>
+						<reference key="source" ref="427045433"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -236,7 +236,7 @@
 							<reference ref="349240355"/>
 							<reference ref="89602979"/>
 							<reference ref="345761693"/>
-							<reference ref="65545681"/>
+							<reference ref="427045433"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -268,7 +268,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">49</int>
-						<reference key="object" ref="65545681"/>
+						<reference key="object" ref="427045433"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 				</object>
