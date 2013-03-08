@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 CDVOGLView
 ==========
 =======
@@ -12,7 +11,7 @@ Cordova (iOS) Xcode Plugin Template
 
 ###Installation:
     $ cd ~/Library/Developer/Xcode/Templates/File\ Templates
-    $ git clone https://github.com/RandyMcMillan/CDVBrowser.git
+    $ git clone https://github.com/RandyMcMillan/CDVOGLView.git
 
 ![image](https://raw.github.com/RandyMcMillan/CDVBrowser/master/ScreenShot.png)
 
