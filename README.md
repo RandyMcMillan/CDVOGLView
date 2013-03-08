@@ -1,10 +1,11 @@
 CDVOGLView
 ==========
-=======
-CDVBrowser
+
 ===
 
 Cordova (iOS) Xcode Plugin Template
+==== 
+Display an OpenGLView in a Cordova iOS app 
 ---
 
 
