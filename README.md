@@ -36,7 +36,7 @@ or
 
     ![image](https://raw.github.com/RandyMcMillan/CDVOGLView/master/ScreenShot4.png)
     
-[Sample index.html is included in the generated plugin](https://raw.github.com/RandyMcMillan/CDVPlugin/master/CDVOGLView.xctemplate/index.html)
+[Sample index.html is included in the generated plugin](https://raw.github.com/RandyMcMillan/CDVOGLView/master/CDVOGLView.xctemplate/index.html)
 
 
 <br><br>
