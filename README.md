@@ -38,6 +38,10 @@ or
     
 [Sample index.html is included in the generated plugin](https://raw.github.com/RandyMcMillan/CDVOGLView/master/CDVOGLView.xctemplate/index.html)
 
+* Add OpenGLES.framework to your app!
+
+![image](https://raw.github.com/RandyMcMillan/CDVOGLView/master/ScreenShot7.png)
+
 
 <br><br>
 
