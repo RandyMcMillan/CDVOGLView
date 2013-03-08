@@ -7,6 +7,8 @@ Cordova (iOS) Xcode Plugin Template
 ==== 
 Display an OpenGLView in a Cordova iOS app 
 ---
+![image](https://raw.github.com/RandyMcMillan/CDVOGLView/master/ScreenShot6.png)
+![image](https://raw.github.com/RandyMcMillan/CDVOGLView/master/ScreenShot5.png)
 
 
 
